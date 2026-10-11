@@ -1,0 +1,19 @@
+# 训练产物 / 日志
+outputs/
+wandb/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# 模型与数据产物
+*.pt
+*.bin
+*.safetensors
+*.pkl
+*.parquet
+
+# macOS
+.DS_Store
